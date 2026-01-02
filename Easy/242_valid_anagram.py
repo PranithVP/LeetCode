@@ -1,4 +1,4 @@
-def isAnagram(self, s: str, t: str) -> bool:
+def isAnagram(s: str, t: str) -> bool:
     d = dict()
 
     if len(s) != len(t):
