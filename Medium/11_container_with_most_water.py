@@ -1,4 +1,6 @@
-def maxArea(self, height: List[int]) -> int:
+from typing import List
+
+def maxArea(height: List[int]) -> int:
     curr_max = 0
 
     i = 0
