@@ -1,6 +1,6 @@
 from typing import List
 
-def isValidSudoku(self, board: List[List[str]]) -> bool:
+def isValidSudoku(board: List[List[str]]) -> bool:
     #make a set for each row
     rows = [set() for _ in range(len(board))]
 
