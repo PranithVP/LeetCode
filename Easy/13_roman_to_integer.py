@@ -25,3 +25,5 @@ def romanToInt(s: str) -> int:
         elif ch == 'M':
             total += 1000
     return total
+
+print(romanToInt('IV'))
