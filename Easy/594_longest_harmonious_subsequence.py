@@ -12,5 +12,5 @@ class Solution:
 
             curr = counts.get(k, 0) + counts.get(k + 1, 0)
             if curr > curr_max: curr_max = curr
-        
+
         return curr_max
